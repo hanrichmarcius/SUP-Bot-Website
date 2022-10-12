@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-around;
+    height: 13vw;
+}
+
+a #headerlogo{
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+    
+}
+
+#logo{
+    height: 10vw;
+    width: 30 vw;
+    margin-left: 5vw;
+    padding-bottom: 1.7vw;
+    transition: 0.5s;
+}
+
+#logo:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+
+nav a{
+    font-size: 0.9vw;
+    color: #333333;
+    text-decoration: none;
+    margin-left: 4vw;
+    height: 2vw;
+}
+
+
+#menu:hover{
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0.2vw solid #333333;
+    border-top: 0.2vw solid #333333;
+    transition: 0.3s;
+}
+
+#license{
+    background-color: #333333;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.mainlogo{
+    justify-content: center;
+}
+
+#main{
+    margin-left: 8.3vw;
+    margin-right: 8.3vw;
+    background-image: url(assets/background.png);
+    background-size: contain;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8.3vw;
+    margin-right: 8.3vw;
+    padding-top: 5vw;
+    
+    height: 35vw;
+}
+
+.mainlogo img{
+    height: 20vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+
+.main p{
+    font-size: 1vw;
+    padding-right: 5vw;
+    color: white;
+    margin-top: 5.2vw;
+    text-align: justify;
+}
+
+.about{
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    margin-left: 8.3vw;
+    margin-right: 8.3vw;
+    background-color: #faf9f9;
+    height: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#imgtop{
+    margin-bottom: 1vw;
+}
+
+.aboutimgleft{
+    margin-left: 4vw;
+}
+
+.aboutimgleft img{
+    width: 15vw;
+}
+
+.aboutimgright img{
+    width: 15vw;
+}
+
+.aboutimgright{
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+article img{
+    height: 10vw;
+    text-align: center;
+}
+
+article{
+    margin-left: 4vw;
+    padding-top: 2vw;
+}
+
+article p{
+    font-size: 1vw;
+    padding-right: 4vw;
+    margin-bottom: 3vw;
+    text-align: justify;
+}
+
+article a{
+    font-size: 0.8vw;
+    color: black;
+    text-decoration: none;
+    padding: 1.5vw 2vw;
+    padding-right: 2.5;
+    background-color: white;
+}
+
+article a:hover{
+    background-color: #cfcdcd;
+    transition: 0.5s;
+}
+
+.whyus{
+    height: 30vw;
+}
+
+.whyheader{
+    display: flex;
+    justify-content: center;
+}
+
+.whyheader p{
+    color: #bdbdbd;
+    font-size: 3vw;
+}
+
+.why{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+    margin-left: 25vw;
+    margin-right: 10vw;
+}
+
+.whycontent{
+    display: flex;
+}
+
+.whycontent h1{
+    color: #f2f2f2;
+    font-size: 10vw;
+}
+
+.whycontent p{
+    font-size: 1vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    margin-left: 2vw;
+}
+
+#project{
+    height: 50vw;
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+}
+
+.projectheader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+.projectheader p{
+    color: #bdbdbd;
+    font-size: 3vw;
+}
+
+.projecttype{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.projectcontent h1{
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.projectcontent img{
+    width: 20vw;
+    margin-top: 2vw;
+}
+
+footer{
+    background-color: #2C2C2C;
+    height: 20vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footerlogo img{
+    height: 15vw;
+    margin-right: 5vw;
+    margin-top: 4vw;
+}
+
+.footermenu{
+    display: flex;
+    margin-right: 8vw;
+    color: white;
+    /* margin-left: 5vw; */
+    
+}
+
+.information{
+    margin-right: 10vw;
+    margin-top: 4vw;
+}
+
+.info{
+    margin-top: 1.5vw;
+}
+
+.information p{
+    font-size: 1vw;
+    margin-bottom: 1vw;
+
+}
+
+.info a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact{
+    margin-top: 4vw;
+    font-size: 1vw;
+}
+
+.contactheader{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2vw;
+}
+
+.contactheader p{
+    color: #bdbdbd;
+    font-size: 3vw;
+    margin-left: 10vw;
+}
+
+
+.form{
+        display: flex;
+        flex-direction: column;
+        margin: 3vw 9vw;
+        align-items: flex-start;
+    
+}
+
+
+.form .input{
+    margin: 5px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    width: 30vw;
+    background-color: #F3F3F3;
+}
+
+.form textarea{
+    height: 10vw;
+    width: 30vw;
+}
+
+.form button{
+    cursor: pointer;
+    padding: 2px;
+    width: 15vw;
+    height: 7vh;
+    background:black;
+    border: 3px solid #E0E0E0;
+    color: white;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 10px;
+    margin: 5px ;
+}
+
+
+
+.kategori{
+    display: flex;
+    flex-direction: row;
+}
+
+.kategori .gambar{
+    margin: -50px 10px;
+}
+
+.kategori .gambar img{
+    width: 120%;
+   
+}
+
+#contacts{
+    display: flex;
+    margin-top: 1.5vw;
+    width :25vw;
+}
+
+#contacts p{
+    font-size: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+    padding-right: 10vw;
+}
+
+.socialmedia{
+    margin-top: 4vw;
+
+}
+
+.socialmedia a{
+    text-decoration: none;
+    color: white;
+}
+
+#sosmed{
+    display: flex;
+    margin-top: 1.5vw;
+    font-size: 1vw;
+    
+}
+
+#sosmed p{
+    font-size: 1vw;
+    margin-bottom: 0.2vw;
+    margin-left: 2vw;
+}
